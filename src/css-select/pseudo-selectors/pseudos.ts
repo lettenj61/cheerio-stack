@@ -1,5 +1,5 @@
-import { PseudoSelector } from "css-what";
-import type { InternalOptions } from "../types";
+import { PseudoSelector } from "../../css-what/index.ts";
+import type { InternalOptions } from "../types.ts";
 
 export type Pseudo = <Node, ElementNode extends Node>(
     elem: ElementNode,

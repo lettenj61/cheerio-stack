@@ -1,6 +1,6 @@
-import { falseFunc } from "../boolbase";
-import { CompiledQuery, InternalOptions } from "./types";
-import type { AttributeSelector, AttributeAction } from "../css-what";
+import { falseFunc } from "../boolbase/index.ts";
+import { CompiledQuery, InternalOptions } from "./types.ts";
+import type { AttributeSelector, AttributeAction } from "../css-what/index.ts";
 
 /**
  * All reserved characters in a regex, used for escaping.

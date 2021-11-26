@@ -1,11 +1,11 @@
-import { attributeRules } from "./attributes";
-import { compilePseudoSelector } from "./pseudo-selectors";
+import { attributeRules } from "./attributes.ts";
+import { compilePseudoSelector } from "./pseudo-selectors/index.ts";
 import type {
     CompiledQuery,
     InternalOptions,
     InternalSelector,
     CompileToken,
-} from "./types";
+} from "./types.ts";
 
 /*
  * All available rules

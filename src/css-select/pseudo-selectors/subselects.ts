@@ -1,8 +1,8 @@
-import { CompileToken } from "./../types";
-import type { Selector } from "css-what";
-import { trueFunc, falseFunc } from "boolbase";
-import type { CompiledQuery, InternalOptions, Adapter } from "../types";
-import { isTraversal } from "../procedure";
+import { CompileToken } from "../types.ts";
+import type { Selector } from "../../css-what/index.ts";
+import { trueFunc, falseFunc } from "../../boolbase/index.ts";
+import type { CompiledQuery, InternalOptions, Adapter } from "../types.ts";
+import { isTraversal } from "../procedure.ts";
 
 /** Used as a placeholder for :has. Will be replaced with the actual element. */
 export const PLACEHOLDER_ELEMENT = {};

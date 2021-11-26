@@ -1,6 +1,6 @@
-import getNCheck from "nth-check";
-import { trueFunc, falseFunc } from "boolbase";
-import type { CompiledQuery, InternalOptions, Adapter } from "../types";
+import getNCheck from "../../nth-check/index.ts";
+import { trueFunc, falseFunc } from "../../boolbase/index.ts";
+import type { CompiledQuery, InternalOptions, Adapter } from "../types.ts";
 
 export type Filter = <Node, ElementNode extends Node>(
     next: CompiledQuery<ElementNode>,

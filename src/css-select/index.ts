@@ -1,10 +1,10 @@
-import * as DomUtils from "../domutils";
-import { falseFunc } from "../boolbase";
+import * as DomUtils from "../domutils/index.ts";
+import { falseFunc } from "../boolbase/index.ts";
 import type {
     Node as DomHandlerNode,
     Element as DomHandlerElement,
-} from "../domhandler";
-import { compile as compileRaw, compileUnsafe, compileToken } from "./compile";
+} from "../domhandler/index.ts";
+import { compile as compileRaw, compileUnsafe, compileToken } from "./compile.ts";
 import type {
     CompiledQuery,
     Options,
@@ -12,8 +12,8 @@ import type {
     Query,
     Adapter,
     Predicate,
-} from "./types";
-import { getNextSiblings } from "./pseudo-selectors/subselects";
+} from "./types.ts";
+import { getNextSiblings } from "./pseudo-selectors/subselects.ts";
 
 export type { Options };
 
@@ -193,4 +193,4 @@ export function is<Node, ElementNode extends Node>(
 export default selectAll;
 
 // Export filters, pseudos and aliases to allow users to supply their own.
-export { filters, pseudos, aliases } from "./pseudo-selectors";
+export { filters, pseudos, aliases } from "./pseudo-selectors/index.ts";

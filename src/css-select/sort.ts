@@ -1,6 +1,6 @@
-import type { InternalSelector } from "./types";
-import type { AttributeAction } from "../css-what";
-import { procedure } from "./procedure";
+import type { InternalSelector } from "./types.ts";
+import type { AttributeAction } from "../css-what/index.ts";
+import { procedure } from "./procedure.ts";
 
 const attributes: Record<AttributeAction, number> = {
     exists: 10,

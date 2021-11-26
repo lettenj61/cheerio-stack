@@ -1,5 +1,5 @@
-import type { Traversal } from "../css-what";
-import type { InternalSelector } from "./types";
+import type { Traversal } from "../css-what/index.ts";
+import type { InternalSelector } from "./types.ts";
 
 export const procedure: Record<InternalSelector["type"], number> = {
     universal: 50,

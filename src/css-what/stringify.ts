@@ -1,4 +1,4 @@
-import { Selector } from "./parse";
+import { Selector } from "./parse.ts";
 
 const actionTypes: Record<string, string> = {
     equals: "",

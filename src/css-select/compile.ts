@@ -1,14 +1,14 @@
-import { InternalSelector } from "./types";
-import { parse, Selector } from "../css-what";
-import { trueFunc, falseFunc } from "../boolbase";
-import sortRules from "./sort";
-import { isTraversal } from "./procedure";
-import { compileGeneralSelector } from "./general";
+import { InternalSelector } from "./types.ts";
+import { parse, Selector } from "../css-what/index.ts";
+import { trueFunc, falseFunc } from "../boolbase/index.ts";
+import sortRules from "./sort.ts";
+import { isTraversal } from "./procedure.ts";
+import { compileGeneralSelector } from "./general.ts";
 import {
     ensureIsTag,
     PLACEHOLDER_ELEMENT,
-} from "./pseudo-selectors/subselects";
-import type { CompiledQuery, InternalOptions } from "./types";
+} from "./pseudo-selectors/subselects.ts";
+import type { CompiledQuery, InternalOptions } from "./types.ts";
 
 /**
  * Compiles a selector to an executable function.

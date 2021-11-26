@@ -12,13 +12,13 @@
  * of `next()` and your code.
  * Pseudos should be used to implement simple checks.
  */
-import { trueFunc, falseFunc } from "boolbase";
-import type { CompiledQuery, InternalOptions, CompileToken } from "../types";
-import { parse, PseudoSelector } from "css-what";
-import { filters } from "./filters";
-import { pseudos, verifyPseudoArgs } from "./pseudos";
-import { aliases } from "./aliases";
-import { subselects } from "./subselects";
+import { trueFunc, falseFunc } from "../../boolbase/index.ts";
+import type { CompiledQuery, InternalOptions, CompileToken } from "../types.ts";
+import { parse, PseudoSelector } from "../../css-what/index.ts";
+import { filters } from "./filters.ts";
+import { pseudos, verifyPseudoArgs } from "./pseudos.ts";
+import { aliases } from "./aliases.ts";
+import { subselects } from "./subselects.ts";
 
 export { filters, pseudos, aliases };
 
