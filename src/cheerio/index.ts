@@ -23,7 +23,9 @@ export type {
  */
 export type { Node, NodeWithChildren, Element, Document } from '../domhandler/index.ts';
 
-export type { CheerioAPI } from './load.ts';
+import { CheerioAPI } from './load.ts';
+export type { CheerioAPI };
+
 import { getLoad } from './load.ts';
 import { getParse } from './parse.ts';
 import { renderWithParse5, parseWithParse5 } from './parsers/parse5-adapter.ts';
@@ -56,12 +58,14 @@ export const load = getLoad(parse, (dom, options) =>
     : renderWithParse5(dom)
 );
 
+const defaultCheerio: CheerioAPI = load([]);
+
 /**
  * The default cheerio instance.
  *
  * @deprecated Use the function returned by `load` instead.
  */
-export default load([]);
+export default defaultCheerio;
 
 import { filters, pseudos, aliases } from '../cheerio-select/index.ts';
 
