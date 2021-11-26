@@ -1,9 +1,9 @@
 /*
  * Module dependencies
  */
-import * as ElementType from "../domelementtype";
-import type { Node, NodeWithChildren, Element, DataNode } from "../domhandler";
-import { encodeXML } from "../entities";
+import * as ElementType from "../domelementtype/index.ts";
+import type { Node, NodeWithChildren, Element, DataNode } from "../domhandler/index.ts";
+import { encodeXML } from "../entities/index.ts";
 
 /**
  * Mixed-case SVG and MathML tags & attributes
@@ -11,7 +11,7 @@ import { encodeXML } from "../entities";
  *
  * @see https://html.spec.whatwg.org/multipage/parsing.html#parsing-main-inforeign
  */
-import { elementNames, attributeNames } from "./foreignNames";
+import { elementNames, attributeNames } from "./foreignNames.ts";
 
 export interface DomSerializerOptions {
   /**

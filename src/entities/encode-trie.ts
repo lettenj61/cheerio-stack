@@ -1,4 +1,4 @@
-import htmlMap from "./maps/entities.json";
+import htmlMap from "./maps/entities.ts";
 
 const enum Surrogate {
     Mask = 0b1111_1100_0000_0000,

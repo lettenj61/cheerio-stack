@@ -1,4 +1,4 @@
-import { ElementType, isTag as isTagRaw } from "../domelementtype";
+import { ElementType, isTag as isTagRaw } from "../domelementtype/index.ts";
 
 const nodeTypes = new Map<ElementType, number>([
     [ElementType.Tag, 1],

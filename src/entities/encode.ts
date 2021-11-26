@@ -1,7 +1,7 @@
-import xmlMap from "./maps/xml";
-import { encodeHTMLTrieRe, getCodePoint } from "./encode-trie";
+import xmlMap from "./maps/xml.ts";
+import { encodeHTMLTrieRe, getCodePoint } from "./encode-trie.ts";
 
-import htmlMap from "./maps/entities";
+import htmlMap from "./maps/entities.ts";
 
 const htmlReplacer = getCharRegExp(htmlMap, true);
 const xmlReplacer = getCharRegExp(xmlMap, true);

@@ -5,9 +5,9 @@ import {
     hasChildren,
     Node,
     isComment,
-} from "../domhandler";
-import renderHTML, { DomSerializerOptions } from "../dom-serializer";
-import { ElementType } from "../domelementtype";
+} from "../domhandler/index.ts";
+import renderHTML, { DomSerializerOptions } from "../dom-serializer/index.ts";
+import { ElementType } from "../domelementtype/index.ts";
 
 /**
  * @category Stringify

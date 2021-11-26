@@ -1,4 +1,4 @@
-import { isTag, Node, Element, NodeWithChildren } from "../domhandler";
+import { isTag, Node, Element, NodeWithChildren } from "../domhandler/index.ts";
 
 const emptyArray: Node[] = [];
 /**

@@ -1,4 +1,4 @@
-import { ElementType } from "../domelementtype";
+import { ElementType } from "../domelementtype/index.ts";
 import {
     Node,
     Element,
@@ -8,9 +8,9 @@ import {
     NodeWithChildren,
     Document,
     ProcessingInstruction,
-} from "./node";
+} from "./node.ts";
 
-export * from "./node";
+export * from "./node.ts";
 
 export interface DomHandlerOptions {
     /**

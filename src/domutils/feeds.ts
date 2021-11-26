@@ -1,6 +1,6 @@
-import type { Node, Element } from "../domhandler";
-import { textContent } from "./stringify";
-import { getElementsByTagName } from "./legacy";
+import type { Node, Element } from "../domhandler/index.ts";
+import { textContent } from "./stringify.ts";
+import { getElementsByTagName } from "./legacy.ts";
 
 /**
  * The type of a media item.

@@ -1,10 +1,10 @@
-export * from "./stringify";
-export * from "./traversal";
-export * from "./manipulation";
-export * from "./querying";
-export * from "./legacy";
-export * from "./helpers";
-export * from "./feeds";
+export * from "./stringify.ts";
+export * from "./traversal.ts";
+export * from "./manipulation.ts";
+export * from "./querying.ts";
+export * from "./legacy.ts";
+export * from "./helpers.ts";
+export * from "./feeds.ts";
 /** @deprecated Use these methods from `domhandler` directly. */
 export {
     isTag,
@@ -13,4 +13,4 @@ export {
     isComment,
     isDocument,
     hasChildren,
-} from "../domhandler";
+} from "../domhandler/index.ts";
