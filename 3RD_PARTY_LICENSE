@@ -1,0 +1,19 @@
+# LICENSES OF ORIGINAL SOURCE CODE
+
+## MIT License
+
+- Cheerio ([Link](https://github.com/cheeriojs/cheerio/blob/main/LICENSE))
+- dom-serializer ([Link](https://github.com/cheeriojs/dom-serializer/blob/master/LICENSE))
+- htmlparser2 ([Link](https://github.com/fb55/htmlparser2/blob/master/LICENSE))
+- parse5 ([Link](https://github.com/inikulin/parse5/blob/master/LICENSE))
+
+## BSD 2-Clause License
+
+- cheerio-select ([Link](https://github.com/cheeriojs/cheerio-select/blob/master/LICENSE))
+- css-select ([Link](https://github.com/fb55/css-select/blob/master/LICENSE))
+- css-what ([Link](https://github.com/fb55/css-what/blob/master/LICENSE))
+- domelementtype ([Link](https://github.com/fb55/domelementtype/blob/master/LICENSE))
+- domhandler ([Link](https://github.com/fb55/domhandler/blob/master/LICENSE))
+- domutils ([Link](https://github.com/fb55/domutils/blob/master/LICENSE))
+- entities ([Link](https://github.com/fb55/entities/blob/master/LICENSE))
+- nth-check ([Link](https://github.com/fb55/nth-check/blob/master/LICENSE))
