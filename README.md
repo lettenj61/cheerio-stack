@@ -1,6 +1,6 @@
 # cheerio-stack
 
-Re-package [Cheerio](https://github.com/cheeriojs/cheerio) as ES modules to have it work in [Deno](https://deno.land)
+Re-package [Cheerio](https://github.com/cheeriojs/cheerio) to have it work in [Deno](https://deno.land).
 
 ## Installation
 
@@ -19,12 +19,12 @@ Source code of these packages are cloned from GitHub:
 - [css-select][github_css_select]
 - [css-what][github_css_what]
 - [dom-serializer][github_dom_renderer]
-- [domelementtype]()
-- [domhandler]()
-- [domutils]()
+- [domelementtype](https://github.com/fb55/domelementtype)
+- [domhandler](https://github.com/fb55/domhandler)
+- [domutils](https://github.com/fb55/domutils)
 - [entities](https://github.com/fb55/entities)
-- [htmlparser2]()
-- [nth-check]()
+- [htmlparser2](https://github.com/fb55/htmlparser2)
+- [nth-check](https://github.com/fb55/nth-check)
 
 And these are from [Skypack](https://skypack.dev).
 
@@ -32,13 +32,11 @@ And these are from [Skypack](https://skypack.dev).
 
 ## License
 
-Basically this project is just a bundle of someone else's great work, i.e. Cheerio [authors and contributors](https://github.com/cheeriojs/cheerio/graphs/contributors).
+Basically this project is just a bundle of someone else's great work, especially Cheerio [authors and contributors](https://github.com/cheeriojs/cheerio/graphs/contributors).
 
 Thank you for great creations!
 
-See `3RD_PARTY_LICENSE` for links to licenses of original code.
-
-Any other contents under the repository which not described in `3RD_PARTY_LICENSE` text, including this introduction and codes, are licensed under [CC0](https://creativecommons.org/choose/zero/).
+Mainly this project uses MIT license as they do in Cheerio. For other packages, it inherits licenses of original code. See `3RD_PARTY_LICENSE` for links.
 
 
 

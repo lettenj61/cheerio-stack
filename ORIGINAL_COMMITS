@@ -1,12 +1,29 @@
 packages:
-  cheerio: "?"
-  cheerio-select: "?"
+  cheerio:
+    - version: 1.0.0-rc.10
+      commit: a1af0b4562fc1d71721aded1745c3dd32b1bc902
+      github-url:
+  cheerio-select:
+    - version: 1.5.0
+      commit: 3b2d93274741059bfbc87344b39fafd7ec4eb203
+      github-url:
   css-select:
     - version: 4.1.3
       commit: f6a4248542c22eb9f8e351381b7356669b2bb7d9
       github-url: https://github.com/fb55/css-select
       npm-url: https://www.npmjs.com/package/css-select
-  domutils: "?"
+  css-what:
+    - version: 5.1.0
+      commit: 601ba8c7a1b8fb6969a95450240a90935f747996
+  domelementtype:
+    - version: 2.2.0
+      commit: b2b4aecb1ff4a1d06a437fff2425cb27fcbb4ef1
+  domhander:
+    - version: 4.2.2
+      commit: 7ad0cff42a39fda35867a773c24d07822e75b66b
+  domutils:
+    - version: 2.8.0
+      commit: e6f1e1fb7346526e27cf3f476df5f43d4e5103fa
   dom-serializer:
     - version: 1.3.2
       commit: b51ee7d5146485fac207fa2047d26dfa46ab0046
@@ -15,3 +32,12 @@ packages:
   entities:
     - version: 3.0.1
       commit: 6c1a2635cc25e6b5e3b65a99c55aff51fe044ad4
+  htmlparser2:
+    - version: 7.2.0
+      commit: aff81b216238e2544b2683187cb3affa1372e6ec
+  parse5:
+    - version: 6.0.1
+      commit: 9c683e154b8bbdc94237580680a934348406d1a2
+  nth-check:
+    - version: 2.0.1
+      commit: 2a65c2a7ff54c2ff9740f225bfd063ea384c91f1
