@@ -4,7 +4,19 @@ Re-package [Cheerio](https://github.com/cheeriojs/cheerio) to have it work in [D
 
 ## Installation
 
-> TODO
+We haven't publish artifacts yet, so I recommend [DenoPKG](https://denopkg.com) to import these scripts, i.e.:
+
+```typescript
+import cheerio from 'https://denopkg.com/lettenj61/cheerio-stack@0.1.0/mod.ts';
+
+const dom = cheerio.load(`...`);
+```
+
+To run example:
+
+```shell
+$ deno run https://denopkg.com/lettenj61/cheerio-stack@0.1.0/example.ts
+```
 
 ## Build
 
